@@ -11,7 +11,7 @@ const Header = () => {
     const toggleUserDropdown = () => setUserDropdownOpen(!userDropdownOpen)
 
     return (
-        <header className="bg-white shadow-sm px-6 py-3 flex items-center justify-between relative">
+        <header className="bg-white shadow-sm px-6 py-5 flex items-center justify-between relative">
             {/* Logo and Brand */}
             <div className="flex items-center gap-2">
                 <div className="bg-blue-500 p-2 rounded">
